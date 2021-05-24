@@ -1,4 +1,4 @@
-# aws-lambda-aurora-draft
+# aws-lambda-aurora
 
 **Data Modeling**\
 The "Orders" dataset includes information for different types of objects.\
