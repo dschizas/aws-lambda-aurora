@@ -34,7 +34,7 @@ Core architecture includes the following:
 <img src="https://github.com/dschizas/aws-lambda-aurora-draft/blob/main/other/Aurora.png">
 
 **Development**\
-The API development will use Javascript Lambdas and will follow the TDD. The primary focus will be on the unit and integration tests.  The aim here is to write the smallest test possible, and as the API codebase grows, avoid using a fake test double and use a stub or a mock as a last resort.
+As part of the API development I will use Javascript Lambdas and will follow the TDD. The primary focus will be on the unit and integration tests.  The aim here is to write the smallest test possible, and as the API codebase grows, avoid using a fake test double and use a stub or a mock as a last resort.
 
 **Idempotency**\
 Since the application does not update any record in the data storage, I am not worried about looking at a locking strategy to avoid concurrent updates. 
