@@ -21,7 +21,7 @@ The order_items table stores the line items of the order and has a composite pri
 The products table stores information about the products (i.e. product_name, price) and has the product_id as a primary key.
 
 **Data Model Image:**\
-<img src="https://github.com/dschizas/aws-lambda-aurora-draft/blob/main/other/DataModel.png" height="500">
+<img src="https://github.com/dschizas/aws-lambda-aurora/blob/main/other/DataModel.png" height="500">
 
 **Tech Stack**\
 The API uses various AWS resources to deliver a scalable, highly available, idempotent and secure solution. \
@@ -31,7 +31,7 @@ Core architecture includes the following:
 - Amazon ElastiCache
 - Amazon RDS Proxy
 - Amazon Aurora
-<img src="https://github.com/dschizas/aws-lambda-aurora-draft/blob/main/other/Aurora.png">
+<img src="https://github.com/dschizas/aws-lambda-aurora/blob/main/other/Aurora.png">
 
 **Development**\
 As part of the API development I will use Javascript Lambdas and will follow the TDD. The primary focus will be on the unit and integration tests.  The aim here is to write the smallest test possible, and as the API codebase grows, avoid using a fake test double and use a stub or a mock as a last resort.
